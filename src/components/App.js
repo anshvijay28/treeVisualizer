@@ -5,7 +5,7 @@ import '../styles/App.css';
 export default function App() {
 	return (
 		<div className="graph-container">
-			<Tree graphList={[5, 1, 4]}/>;
+			<Tree graphList={[5, 1, 4, 9, 8, 6, null]}/>;
 		</div>
 	);
 }
