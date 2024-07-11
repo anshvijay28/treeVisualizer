@@ -1,23 +1,19 @@
+import React from "react";
+import Tree from "./Tree.js";
 import '../styles/App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	return (
+		<div className="graph-container">
+			<Tree graphList={[5, 1, 4]}/>;
+		</div>
+	);
 }
 
-export default App;
+// we need a way to accept user input
+// we need a way to validate that user input
+
+// then we need a way to generate nodes
+// on the center of the screen that too
+
+// 1) Center Tree
